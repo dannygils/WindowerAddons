@@ -288,6 +288,19 @@ function quicktrade(arg)
 		{id = 4418, name = 'turtle soup', count = 0, stacks = 0, stacksize = 1, ki = "", minimum = 1},
 	}
 
+	local ItSetsMyHeartAflutterIDs = {
+		{id = 3930, name = 'Twitherym Wing', count = 0, stacks = 0, stacksize = 12, ki = "", minimum = 1},
+	}
+	
+	local AGoodPairOfCrocsIDs = {
+		{id = 3929, name = 'Velkk Mask', count = 0, stacks = 0, stacksize = 12, ki = "", minimum = 1},
+		{id = 3928, name = 'Velkk Necklace', count = 0, stacks = 0, stacksize = 12, ki = "", minimum = 1},
+	}	
+
+local AShotInTheDarkIDs = {
+		{id = 3935, name = 'Umbril Ooze', count = 0, stacks = 0, stacksize = 12, ki = "", minimum = 1},
+	}
+
 	local npcTable = {
 		{name = 'Shami', idTable = sealIDs, tableType = 'Seals', loopable = true, loopWait = 3},
 		{name = 'Ephemeral Moogle', idTable = crystalIDs, tableType = 'Crystals', loopable = true, loopWait = 9},
@@ -326,6 +339,9 @@ function quicktrade(arg)
 		{name = 'Affi', idTable = geasFeteZitahIDs, tableType = "Geas Fete Zi'Tah Items", loopable = false, loopWait = 0},
 		{name = 'Dremi', idTable = geasFeteRuaunIDs, tableType = "Geas Fete Ru'Aun Items", loopable = false, loopWait = 0},
 		{name = 'Shiftrix', idTable = geasFeteReisenjimaIDs, tableType = "Geas Fete Reisenjima Items", loopable = false, loopWait = 0},
+		{name = 'Saldinor', idTable = ItSetsMyHeartAflutterIDs, tableType = "It Sets My Heart Aflutter Items", loopable = false, loopWait = 0},
+		{name = 'Felmsy', idTable = AGoodPairOfCrocsIDs, tableType = "A Good Pair of Crocs Items", loopable = false, loopWait = 0},
+		{name = 'Pudith', idTable = AShotInTheDarkIDs, tableType = "A Shot In The Dark Items", loopable = false, loopwait = 0},
 	}
 	
 	local idTable = {}
